@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"  rel="stylesheet" type="text/css" >
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>SQL Pratice</title>
+</head>
+<body>
+    <div class="form_intro">
+        <div class="grid-unit-6 center">
+            <h2>Formulaire de contact</h2>
+            <span class="subtitle">Lorem ipsum dolor sit amet.</span>
+        </div>
+
+        <div class="grid-unit-6 text-right search-box">
+           <form class="search-form" action="" method="post">
+                <input type="text" class="form-control bg-transparent" name="search" placeholder="Rechercher">
+                <button class="btn submit-btn btn-danger" type="submit">
+                  <span class="svg-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"/>
+                            <path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
+                            <path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/>
+                        </g>
+                    </svg>
+                  </span>
+                </button>
+           </form>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="form-wrapper">
+            <form action="" method="get">
+               <div class="input-wrap">
+                   <label for="">Nom</label>
+                   <input type="text" name="nom" id="">
+               </div> 
+
+               <div class="input-wrap">
+                    <label for="">Message</label>
+                    <textarea name="message_post" id="" cols="30" rows="10"></textarea>
+               </div>
+            <div class="custom-select">
+                <label for="">Priorité</label>
+                <select>
+                  <option value="0">Sélectionnez:</option>
+                  <option value="1">Faible</option>
+                  <option value="2">Moyen</option>
+                  <option value="3">Élevé</option>
+                </select>
+            </div>
+              
+               <div class="input-wrap ">
+                    <label for="">Type</label>
+                    <fieldset>
+                       <label class="select_label"><input type="radio" name="type" value="1"><span> Complain</span></label>
+                       <label class="select_label"><input type="radio" name="type" value="2"><span> Sugestion</span></label>
+                    </fieldset>
+               </div> 
+
+               <div class="input-wrap checkbox-wrap d-flex">
+                <input type="checkbox" class="switch" id="switch-1"/>Jacceepte les termes conditions
+               </div>
+
+               <button class="btn" type="submit">Valider</button>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
