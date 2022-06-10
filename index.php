@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"  rel="stylesheet" type="text/css" >
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css"  rel="stylesheet" type="text/css" >
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
     <title>SQL Pratice</title>
 </head>
 <body>
@@ -19,20 +19,9 @@
         </div>
 
         <div class="grid-unit-6 text-right search-box">
-           <form class="search-form" action="" method="post">
-                <input type="text" class="form-control bg-transparent" name="search" placeholder="Rechercher">
-                <button class="btn submit-btn btn-danger" type="submit">
-                  <span class="svg-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <rect x="0" y="0" width="24" height="24"/>
-                            <path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                            <path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/>
-                        </g>
-                    </svg>
-                  </span>
-                </button>
-           </form>
+           <a href="contacts-table.php" class="btn btn-danger">
+              Voir la liste des contacts
+              </a>
         </div>
     </div>
     <div class="wrap">
@@ -77,6 +66,6 @@
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="ssets/js/script.js"></script>
 </body>
 </html>
