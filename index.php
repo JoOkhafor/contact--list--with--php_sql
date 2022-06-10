@@ -37,7 +37,7 @@
     </div>
     <div class="wrap">
         <div class="form-wrapper">
-            <form action="" method="get">
+            <form action="insert_process.php" method="post">
                <div class="input-wrap">
                    <label for="">Nom</label>
                    <input type="text" name="nom" id="">
@@ -49,24 +49,24 @@
                </div>
             <div class="custom-select">
                 <label for="">Priorité</label>
-                <select>
-                  <option value="0">Sélectionnez:</option>
-                  <option value="1">Faible</option>
-                  <option value="2">Moyen</option>
-                  <option value="3">Élevé</option>
+                <select name="priorite">
+                  <option>Sélectionnez:</option>
+                  <option>Faible</option>
+                  <option>Moyen</option>
+                  <option>Élevé</option>
                 </select>
             </div>
               
                <div class="input-wrap ">
                     <label for="">Type</label>
                     <fieldset>
-                       <label class="select_label"><input type="radio" name="type" value="1"><span> Complain</span></label>
-                       <label class="select_label"><input type="radio" name="type" value="2"><span> Sugestion</span></label>
+                       <label class="select_label"><input type="radio" name="type" value="Plainte"><span> Plainte</span></label>
+                       <label class="select_label"><input type="radio" name="type" value="Suggestion"><span>Suggestion</span></label>
                     </fieldset>
                </div> 
 
                <div class="input-wrap checkbox-wrap d-flex">
-                <input type="checkbox" class="switch" id="switch-1"/>Jacceepte les termes conditions
+                <input type="checkbox" name="termes" class="switch" id="switch-1"/>Jacceepte les termes conditions
                </div>
 
                <button class="btn" type="submit">Valider</button>
